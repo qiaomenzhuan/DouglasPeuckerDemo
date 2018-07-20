@@ -59,7 +59,7 @@
  * 根据给定的始末点，计算出距离始末点直线的最远距离和点在coordinateList列表中的位置
  * @param startIndex 遍历coordinateList起始点
  * @param endIndex 遍历coordinateList终点
- * @return maxDistance + "," + position 返回最大距离+"," + 在coordinateList中位置
+ * @return maxDistance 返回最大距离 position 在原始数组中位置
  */
 - (NSArray *)getMaxDistance:(NSArray <LatLngEntity *>*)coordinateList startIndex:(NSInteger)startIndex endIndex:(NSInteger)endIndex threshold:(CGFloat)threshold
 {
